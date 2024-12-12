@@ -4,7 +4,7 @@ import Projects from '@/views/Projects.vue'
 import EducationInfo from '@/views/EducationInfo.vue'
 import MyContact from '@/views/MyContact.vue'
 import AboutMe from '@/views/AboutMe.vue'
-
+import Acknowledgement from '@/views/Acknowledgement.vue'
 
 const routes = [
   {
@@ -31,6 +31,11 @@ const routes = [
     path: '/acerca-de-mi',
     name: 'acerca-de-mi',
     component: AboutMe,
+  },
+  {
+    path: '/reconocimientos',
+    name: 'reconocimientos',
+    component: Acknowledgement,
   },
 ]
 

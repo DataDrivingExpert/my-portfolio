@@ -19,6 +19,7 @@
                 <RouterLink class='text-gray-300 hover:bg-zinc-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium' to='/educacion'>Educación</RouterLink>
                 <RouterLink class='text-gray-300 hover:bg-zinc-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium' to='/acerca-de-mi'>Sobre mí</RouterLink>
                 <RouterLink class='text-gray-300 hover:bg-zinc-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium' to='/contacto'>Contacto</RouterLink>
+                <RouterLink class='text-gray-300 hover:bg-zinc-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium' to='/reconocimientos'>Reconocimientos</RouterLink>
               </div>
             </div>
           </div>
@@ -27,7 +28,16 @@
   
       <DisclosurePanel class="sm:hidden">
         <div class="space-y-1 px-2 pb-3 pt-2">
-          <DisclosureButton v-for="item in navigation" :key="item.name" as="a" :href="item.href" :class="[item.current ? 'bg-zinc-700 text-white' : 'text-gray-300 hover:bg-zinc-700 hover:text-white', 'block rounded-md px-3 py-2 text-base font-medium']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</DisclosureButton>
+          <DisclosureButton>
+              <div class="flex flex-col">
+                <RouterLink class='text-gray-300 hover:bg-zinc-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium' to='/'>Resumen</RouterLink>
+                <RouterLink class='text-gray-300 hover:bg-zinc-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium' to='/proyectos'>Proyectos</RouterLink>
+                <RouterLink class='text-gray-300 hover:bg-zinc-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium' to='/educacion'>Educación</RouterLink>
+                <RouterLink class='text-gray-300 hover:bg-zinc-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium' to='/acerca-de-mi'>Sobre mí</RouterLink>
+                <RouterLink class='text-gray-300 hover:bg-zinc-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium' to='/contacto'>Contacto</RouterLink>
+                <RouterLink class='text-gray-300 hover:bg-zinc-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium' to='/reconocimientos'>Reconocimientos</RouterLink>
+              </div>
+          </DisclosureButton>
         </div>
       </DisclosurePanel>
     </Disclosure>
