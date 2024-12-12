@@ -9,7 +9,7 @@
             class="w-full h-full object-cover"
             ></video>
     </div>
-    <div class="flex flex-col gap-y-2 m-2 justify-evenly">
+    <div class="flex flex-col gap-y-2 m-2">
         <ProjectCard
             title="Perfilamiento Inteligente"
             company="CamiónGo"
