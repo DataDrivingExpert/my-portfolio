@@ -9,21 +9,42 @@
             class="w-full h-full object-cover"
             ></video>
     </div>
-
-    <div class="flex flex-col gap-y-2 m-2 justify-evenly md:flex-row md:gap-x-2 md:gap-y-0">
-        <div class="basis-3/4 bg-zinc-800 rounded-xl md:px-5 md:py-10">
-            
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis numquam sint consequuntur 
-                sit enim nihil sapiente magni asperiores reprehenderit. Accusantium ipsum quasi itaque laborum 
-                voluptatem delectus id quisquam facere eligendi.
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas neque rerum animi perspiciatis 
-                repellendus doloribus inventore aspernatur vitae ab suscipit distinctio, quidem at qui, culpa 
-                nulla deserunt, repudiandae voluptates sapiente!
-            </p>
-        </div>
-        <div class="basis-1/4 bg-zinc-800 rounded-xl md:px-5 md:py-10">
-            <p>Presentación</p>
-        </div>
+    <div class="flex flex-col gap-y-2 m-2 justify-evenly">
+        <ProjectCard
+            title="Perfilamiento Inteligente"
+            company="CamiónGo"
+            position="Analista de datos"
+            start="09/2024"
+            end="12/2024"
+            desc="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias cumque minima odio eveniet iste nulla quia molestiae, architecto expedita fuga praesentium porro rerum, aperiam modi id commodi nisi! Assumenda, magni."
+        />
+        <ProjectCard
+            title="Desarrollo de aplicación web"
+            company="RetailCheck"
+            position="Desarrollador .NET Razor Pages"
+            start="12/2023"
+            end="02/2024"
+            desc="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias cumque minima odio eveniet iste nulla quia molestiae, architecto expedita fuga praesentium porro rerum, aperiam modi id commodi nisi! Assumenda, magni."
+        />
+        <ProjectCard
+            title="ChatBot para validación Docente"
+            company="Universidad Autónoma de Chile"
+            position="Desarrollador líder"
+            start="09/2024"
+            end="12/2024"
+            desc="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias cumque minima odio eveniet iste nulla quia molestiae, architecto expedita fuga praesentium porro rerum, aperiam modi id commodi nisi! Assumenda, magni."
+        />
+        <ProjectCard
+            title="Gestión de colegios"
+            company="Universidad Autónoma de Chile"
+            position="Miembro del equipo FullStack"
+            start="09/2024"
+            end="12/2024"
+            desc="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias cumque minima odio eveniet iste nulla quia molestiae, architecto expedita fuga praesentium porro rerum, aperiam modi id commodi nisi! Assumenda, magni."
+        />
     </div>
 </template>
+
+<script setup>
+    import ProjectCard from '@/components/ProjectCard.vue'
+</script>
