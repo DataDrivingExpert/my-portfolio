@@ -10,6 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+  assetsInclude: ['**/*.JPG'], // Permite manejar archivos con extensión .JPG
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

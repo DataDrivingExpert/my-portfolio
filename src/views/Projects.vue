@@ -17,6 +17,7 @@
             start="09/2024"
             end="12/2024"
             desc="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias cumque minima odio eveniet iste nulla quia molestiae, architecto expedita fuga praesentium porro rerum, aperiam modi id commodi nisi! Assumenda, magni."
+            refEmail="rodrigo.valdes@camiongo.cl"
         />
         <ProjectCard
             title="Desarrollo de aplicación web"
@@ -25,6 +26,7 @@
             start="12/2023"
             end="02/2024"
             desc="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias cumque minima odio eveniet iste nulla quia molestiae, architecto expedita fuga praesentium porro rerum, aperiam modi id commodi nisi! Assumenda, magni."
+            refEmail="nino.panchana@remaco.cl"
         />
         <ProjectCard
             title="ChatBot para validación Docente"
@@ -33,6 +35,7 @@
             start="09/2024"
             end="12/2024"
             desc="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias cumque minima odio eveniet iste nulla quia molestiae, architecto expedita fuga praesentium porro rerum, aperiam modi id commodi nisi! Assumenda, magni."
+            refEmail="oscar.loyola@cloud.uautonoma.cl"
         />
         <ProjectCard
             title="Gestión de colegios"
@@ -41,6 +44,7 @@
             start="09/2024"
             end="12/2024"
             desc="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias cumque minima odio eveniet iste nulla quia molestiae, architecto expedita fuga praesentium porro rerum, aperiam modi id commodi nisi! Assumenda, magni."
+            refEmail="rene.galarce@cloud.uautonoma.cl"
         />
     </div>
 </template>

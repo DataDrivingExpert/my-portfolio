@@ -1,5 +1,5 @@
 <template>
-    <Disclosure as="nav" class="bg-zinc-800/50 fixed top-0 left-0 w-full z-50" v-slot="{ open }">
+    <Disclosure as="nav" :class="['fixed top-0 left-0 w-full z-50', navbarClass] " v-slot="{ open }">
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -44,7 +44,29 @@
   </template>
   
   <script setup>
-  import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
-  import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
-  import {RouterLink} from 'vue-router'
+  import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue';
+  import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline';
+  import {RouterLink} from 'vue-router';
+
+  import { ref, computed, onMounted, onBeforeUnmount } from 'vue';
+
+  // Definir variable reactiva para el estado de desplazamiento
+  const isScrolled = ref(false);
+
+  // Computed para manejar las clases dinámicas
+  const navbarClass = computed(() => (isScrolled.value ? 'bg-zinc-800/90' : 'bg-zinc-800/30'));
+
+  // Función para manejar el evento de scroll
+  const handleScroll = () => {
+    isScrolled.value = window.scrollY > 40;
+  };
+
+  // Agregar y eliminar el evento de scroll
+  onMounted(() => {
+    window.addEventListener('scroll', handleScroll);
+  });
+
+  onBeforeUnmount(() => {
+    window.removeEventListener('scroll', handleScroll);
+  });
   </script>
