@@ -1,12 +1,12 @@
 <template>
     <div class="relative w-full h-80">
         <video
-            src="../assets/video/nodes-pink.mp4"
+            src="@/assets/video/soumya.mp4"
             autoplay
             loop
             muted
             playsinline
-            class="w-full h-full object-cover"
+            class="w-full h-full object-cover opacity-60"
             ></video>
     </div>
     <div class="flex flex-col gap-y-2 m-2">
