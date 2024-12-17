@@ -48,13 +48,16 @@
   import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline';
   import {RouterLink} from 'vue-router';
 
-  import { ref, computed, onMounted, onBeforeUnmount } from 'vue';
+  import { ref, computed, onMounted, onBeforeUnmount, watch } from 'vue';
 
   // Definir variable reactiva para el estado de desplazamiento
   const isScrolled = ref(false);
+  const navbarClass = ref('bg-zinc-800/30');
 
   // Computed para manejar las clases dinámicas
-  const navbarClass = computed(() => (isScrolled.value ? 'bg-zinc-800/90' : 'bg-zinc-800/30'));
+  watch(isScrolled, (newVal) => {
+    navbarClass.value = newVal ? 'bg-zinc-800/90' : 'bg-zinc-800/30'
+  });
 
   // Función para manejar el evento de scroll
   const handleScroll = () => {
