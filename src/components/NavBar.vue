@@ -27,7 +27,7 @@
       </div>
   
       <DisclosurePanel class="sm:hidden">
-        <div class="space-y-1 px-2 pb-3 pt-2">
+        <div class="space-y-1 px-2 pb-3 pt-2 bg-zinc-800/90">
           <DisclosureButton>
               <div class="flex flex-col text-left">
                 <RouterLink class='text-gray-300 hover:bg-zinc-700  rounded-md px-3 py-2 text-sm font-medium' to='/'>Resumen</RouterLink>
@@ -44,7 +44,7 @@
   </template>
   
   <script setup>
-  import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue';
+  import { Disclosure, DisclosureButton, DisclosurePanel} from '@headlessui/vue';
   import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline';
   import {RouterLink} from 'vue-router';
 

@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       colors:{
-      }
+        mysky: '#3EDDE6',
+      },
     },
   },
   plugins: [],

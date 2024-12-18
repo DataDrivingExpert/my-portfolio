@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col-reverse gap-y-2 justify-center gap-x-2 sm:flex-row">
-        <div class="basis-2/4 bg-zinc-800 rounded-xl px-5 py-10">
-            <h5 class="text-3xl font-semibold text-cyan-300">{{ title }}</h5>
+        <div class="bg-zinc-800 rounded-xl px-5 py-10">
+            <h5 class="text-3xl font-semibold text-white">{{ title }}</h5>
             <p>Empresa <em class="font-medium text-teal-500">{{ company }}</em></p>
             <p>En rol de <em class="font-medium text-teal-500">{{ position }}</em></p>
             <p>Desde <em class="bg-gray-700 rounded-xl px-2">{{start}}</em> hasta <em class="bg-gray-700 rounded-xl px-2">{{ end }}</em></p>
@@ -16,14 +16,15 @@
                     <ClipboardDocumentIcon class="h-full w-full text-white" />
                 </div>
             </div>
+            <div class="basis-1/4 p-5">
+                <img 
+                src="../assets/img/light-bulbs.jpg" 
+                alt=""
+                class="w-full h-full object-cover rounded-xl"
+                >
+            </div>
         </div>
-        <div class="basis-1/4 bg-zinc-800 rounded-xl p-5">
-            <img 
-            src="../assets/img/light-bulbs.jpg" 
-            alt=""
-            class="w-full h-full object-cover rounded-xl"
-            >
-        </div>
+
     </div>
 </template>
 

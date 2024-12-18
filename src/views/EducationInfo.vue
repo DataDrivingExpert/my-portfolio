@@ -1,10 +1,13 @@
 <template>
     <div class="relative w-full h-80">
-        <img
-            src="../assets/img/nodos.jpg"
-            alt="Red de nodos"
-            class="w-full h-full object-cover"
-        />
+        <video
+            src="@/assets/video/Nicola_Narracci.mp4"
+            autoplay
+            loop
+            muted
+            playsinline
+            class="w-full h-full object-cover opacity-80"
+            ></video>
     </div>
     <div class="flex flex-col gap-y-2 m-2">
         <h5 class="text-3xl font-semibold text-center my-5">Formación académica</h5>
