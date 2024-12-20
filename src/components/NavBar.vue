@@ -19,7 +19,7 @@
                 <RouterLink class='text-gray-300 hover:bg-zinc-700 rounded-md px-3 py-2 text-sm font-medium' to='/educacion'>Educación</RouterLink>
                 <RouterLink class='text-gray-300 hover:bg-zinc-700 rounded-md px-3 py-2 text-sm font-medium' to='/acerca-de-mi'>Sobre mí</RouterLink>
                 <RouterLink class='text-gray-300 hover:bg-zinc-700 rounded-md px-3 py-2 text-sm font-medium' to='/contacto'>Contacto</RouterLink>
-                <RouterLink class='text-gray-300 hover:bg-zinc-700 rounded-md px-3 py-2 text-sm font-medium' to='/reconocimientos'>Reconocimientos</RouterLink>
+                <RouterLink class='text-gray-300 hover:bg-zinc-700 rounded-md px-3 py-2 text-sm font-medium' to='/agradecimientos'>Agradecimientos</RouterLink>
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@
                 <RouterLink class='text-gray-300 hover:bg-zinc-700  rounded-md px-3 py-2 text-sm font-medium' to='/educacion'>Educación</RouterLink>
                 <RouterLink class='text-gray-300 hover:bg-zinc-700  rounded-md px-3 py-2 text-sm font-medium' to='/acerca-de-mi'>Sobre mí</RouterLink>
                 <RouterLink class='text-gray-300 hover:bg-zinc-700  rounded-md px-3 py-2 text-sm font-medium' to='/contacto'>Contacto</RouterLink>
-                <RouterLink class='text-gray-300 hover:bg-zinc-700  rounded-md px-3 py-2 text-sm font-medium' to='/reconocimientos'>Reconocimientos</RouterLink>
+                <RouterLink class='text-gray-300 hover:bg-zinc-700  rounded-md px-3 py-2 text-sm font-medium' to='/agradecimientos'>Agradecimientos</RouterLink>
               </div>
           </DisclosureButton>
         </div>

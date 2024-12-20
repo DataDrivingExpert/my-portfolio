@@ -1,17 +1,17 @@
 <template>
     <div class="relative w-full h-80">
-        <div class="absolute flex flex-col basis-4/4 md:basis-2/4 bottom-5 bg-black/45 rounded-xl px-10 py-5">
-            <h5 class="text-5xl font-semibold mb-5">Proyectos</h5>
-            <p>Conjunto de proyectos académicos y profesionales desarrollados. <br/> Conozca un poco más de mi trabajo</p>
-        </div>
         <video
-            src="@/assets/video/soumya.mp4"
+            src="@/assets/video/coverrCode2.mp4"
             autoplay
             loop
             muted
             playsinline
-            class="w-full h-full object-cover opacity-20"
+            class="w-full h-full object-cover"
             ></video>
+        <div class="absolute flex flex-col basis-4/4 md:basis-2/4 left-5 bottom-5 bg-black/45 rounded-xl px-10 py-5">
+            <h5 class="text-5xl font-semibold mb-5">Proyectos</h5>
+            <p>Conjunto de proyectos académicos y profesionales desarrollados. <br/> Conozca un poco más de mi trabajo</p>
+        </div>
     </div>
     <div class="flex flex-col md:flex-row justify-center bg-gradient-to-b from-zinc-900 to-black">
 

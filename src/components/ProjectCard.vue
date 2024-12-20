@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col-reverse gap-y-2 justify-center gap-x-2 sm:flex-row">
-        <div class="bg-zinc-800 rounded-xl px-5 py-10">
+        <div class="bg-gradient-to-tl from-[#202022] from-45% to-[#37373B] to-80% rounded-xl px-5 py-10">
             <h5 class="text-3xl font-semibold text-white">{{ title }}</h5>
             <p>Empresa <em class="font-medium text-teal-500">{{ company }}</em></p>
             <p>En rol de <em class="font-medium text-teal-500">{{ position }}</em></p>

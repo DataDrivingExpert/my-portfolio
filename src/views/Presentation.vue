@@ -15,7 +15,7 @@
 
     <div class="flex gap-y-2 m-2 justify-evenly">
         <div class="relative basis-3/4 bg-gradient-to-tl from-[#202022] from-45% to-[#37373B] to-80% rounded-xl px-10 py-10 text-justify leading-9">
-            <div class="h-[200px] w-[200px] bg-white rounded-full p-1 absolute -top-20 right-2">
+            <div class="h-[200px] w-[200px] bg-white rounded-full p-1 absolute -top-[100px] md:-top-20 right-2">
                 <img 
                 src="@/assets/img/myself.JPG" 
                 alt="Osvaldo Herrera"
@@ -23,16 +23,13 @@
                 />
 
             </div>
-            <h1 class="text-3xl font-semibold mt-20 text-white">Osvaldo Herrera</h1>
-            <h2 class="italic text-mysky">
-                Aspirante a Data Scientist 
-                <span class="text-white">|</span> 
-                Ingeniero Civil Informático 
-                <span class="text-white">|</span> 
-                Desarrollo de soluciones basadas en Data Science 
-                <span class="text-white">|</span> 
-                Desarrollador Web
-            </h2>
+            <h1 class="text-2xl md:text-3xl font-semibold mt-20 text-white">Osvaldo Herrera</h1>
+            <div class="flex flex-col text-sm leading-7 text-right md:flex-row md:text-base md:text-center">
+                <h2>Aspirante a Data Scientist <span class="text-white">|</span></h2>
+                <h2>&nbsp; Ingeniero Civil Informático <span class="text-white">|</span></h2>
+                <h2>&nbsp; Desarrollo de soluciones basadas en Data Science <span class="text-white">|</span> </h2>
+                <h2>&nbsp; Desarrollador Web</h2>
+            </div>
             <p class="hidden sm:block">
                 Soy estudiante de último semestre de la carrera Ingeniería Civil en Informática. Mi meta profesional es convertirme
                 en un científico de datos con una formación amplia. Incluyendo conocimientos profundos en la ingeniería de datos.
@@ -44,30 +41,18 @@
         </div>
     </div>
     
-    <div class="flex bg-gradient-to-b from-zinc-900 to-black py-10 justify-center px-10">
+    <div class="flex justify-center px-10">
         <div class="basis-3/4">
             <h5 class="text-3xl font-semibold my-5">Proyectos</h5>
             <div class="flex flex-col gap-y-5 md:flex-row justify-start gap-x-5">
-                <!-- Añadir la clase flex para que justify-center y items-center funcionen -->
-                <div class="flex basis-1/4 min-h-40 text-2xl text-center justify-center items-center px-5 bg-zinc-900 rounded-xl">
-                    <p>Artificial Intelligence</p>
-                </div>
-                <div class="flex basis-1/4 min-h-40 text-2xl text-center justify-center items-center px-5 bg-zinc-900 rounded-xl">
-                    <p>Machine Learning</p>
-                </div>
-                <div class="flex basis-1/4 min-h-40 text-2xl text-center justify-center items-center px-5 bg-zinc-900 rounded-xl">
-                    <p>Web Development</p>
-                </div>
+                <BtnResume content="Artificial Intelligence"></BtnResume>
+                <BtnResume content="Machine Learning"></BtnResume>
+                <BtnResume content="Web Development"></BtnResume>
             </div>
             <h5 class="text-3xl font-semibold mt-10 mb-5">Formación</h5>
             <div class="flex flex-col gap-y-5 md:flex-row justify-start gap-x-5">
-                <!-- Añadir la clase flex para que justify-center y items-center funcionen -->
-                <div class="flex basis-1/4 min-h-40 text-2xl text-center justify-center items-center px-5 bg-zinc-900 rounded-xl">
-                    <p>Grado Académico</p>
-                </div>
-                <div class="flex basis-1/4 min-h-40 text-2xl text-center justify-center items-center px-5 bg-zinc-900 rounded-xl">
-                    <p>Licencias y Certificaciones</p>
-                </div>
+                <BtnResume content="Grado Académico"></BtnResume>
+                <BtnResume content="Licencias y Certificaciones"></BtnResume>
             </div>
         </div>
     </div>
@@ -79,4 +64,5 @@
 
 <script setup>
     import GratitudeBtn from '@/components/GratitudeBtn.vue'
+    import BtnResume from '@/components/BtnResume.vue';
 </script>
