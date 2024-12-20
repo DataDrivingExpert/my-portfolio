@@ -33,8 +33,8 @@ const routes = [
     component: AboutMe,
   },
   {
-    path: '/reconocimientos',
-    name: 'reconocimientos',
+    path: '/agradecimientos',
+    name: 'agradecimientos',
     component: Acknowledgement,
   },
 ]

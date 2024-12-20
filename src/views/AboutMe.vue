@@ -6,7 +6,7 @@
         class="w-full h-full object-cover opacity-60"
         />
         <div class="absolute flex flex-col max-w-screen-lg left-5 bottom-5 bg-black/45 rounded-xl px-10 py-5">
-            <h5 class="text-5xl font-semibold mb-5 text-center">Acerca de mí</h5>
+            <h5 class="text-5xl font-semibold mb-5 text-center">Sobre mí</h5>
             <p>Más que sólo una profesión. Un estilo de vida</p>
         </div>
     </div>

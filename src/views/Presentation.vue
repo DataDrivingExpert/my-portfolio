@@ -8,8 +8,6 @@
             playsinline
             class="w-full h-full object-cover"
             ></video>
-        <GratitudeBtn name="Josh" class="absolute bottom-5 left-2 z-50"></GratitudeBtn>
-
     </div>
 
 
@@ -50,7 +48,7 @@
                 <BtnResume content="Web Development"></BtnResume>
             </div>
             <h5 class="text-3xl font-semibold mt-10 mb-5">Formación</h5>
-            <div class="flex flex-col gap-y-5 md:flex-row justify-start gap-x-5">
+            <div class="flex flex-col gap-y-5 md:flex-row justify-start gap-x-5 mb-10">
                 <BtnResume content="Grado Académico"></BtnResume>
                 <BtnResume content="Licencias y Certificaciones"></BtnResume>
             </div>
@@ -63,6 +61,5 @@
 </template>
 
 <script setup>
-    import GratitudeBtn from '@/components/GratitudeBtn.vue'
     import BtnResume from '@/components/BtnResume.vue';
 </script>

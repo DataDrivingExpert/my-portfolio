@@ -1,7 +1,7 @@
 <template>
     <div class="relative w-full h-80">
         <img 
-        src="@/assets/img/JohnSorenson.jpg" 
+        src="@/assets/img/JoshSorenson.jpg" 
         alt="Atardecer en la carretera"
         class="w-full h-full object-cover opacity-60"
         />
@@ -22,14 +22,18 @@
                     />
                 </div>
             </div>
-            <div id="contact" class="flex flex-col h-full w-full p-5">
+            <div id="contact" class="flex flex-col h-full w-full p-5 gap-5">
                 <p>Trabajemos en conjunto. Me encuentro frecuentemente en LinkedIn, por tanto nuestra comunicación podría ser más fluida a través de este medio.</p>
-                <p class="">Puede encontrarme en:</p>
-                <div class="flex flex-row gap-5 justify-evenly">
-                    <p>LinkedIn</p>
-                    <p>Email</p>
+                <p class="text-lg">Puede encontrarme en:</p>
+                <div class="flex flex-col md:flex-row gap-5 justify-center">
+                    <div class="px-3 text-center bg-gradient-to-br from-blue-600/85 from-40% to-sky-500/85 rounded-lg cursor-pointer">
+                        <p>LinkedIn</p>
+                    </div>
+                    <div class="px-3 text-center bg-gradient-to-br from-red-600/85 from-40% to-rose-700/85 rounded-lg cursor-pointer">
+                        <p>Email</p>
+                    </div>
                 </div>
-                <p>Coordinemos una reunión. Agende directamente una cita en mi calendario:</p>
+                <p class="text-lg">Agende directamente una cita en mi calendario:</p>
                 <div class="flex flex-row gap-5 justify-evenly">
                     <p>Google Calendar</p>
                 </div>
