@@ -1,13 +1,13 @@
 <template>
     <div class="relative w-full h-80">
         <img 
-        src="@/assets/img/keyboard.jpg" 
+        src="/img/keyboard.jpg" 
         alt="Atardecer en la carretera"
         class="w-full h-full object-cover object-center opacity-20"
         />
-        <div class="absolute flex flex-col max-w-screen-lg md:left-5 bottom-5 bg-black/45 rounded-xl px-10 py-5">
-            <h5 class="text-2xl sm:text-5xl font-semibold mb-5 text-center">Gratitud y reconocimiento</h5>
-            <p>
+        <div class="absolute flex flex-col w-full md:w-fit items-center left-0 bottom-5 bg-black/45 rounded-xl px-10 py-5 md:ml-5">
+            <h5 class="text-2xl md:text-5xl font-semibold mb-5 text-center">Gratitud y reconocimiento</h5>
+            <p class="text">
                 Para los autores originales del contenido dispuesto. Muchas gracias por su trabajo.
             </p>
         </div>
@@ -28,7 +28,7 @@
                     <div class="h-fit w-fit">
                         <div class="h-[150px] w-[150px] md:h-[200px] md:w-[200px] bg-white rounded-full p-1">
                             <img 
-                                src="@/assets/img/coverr_avatar.png" 
+                                src="/img/coverr_avatar.png" 
                                 alt="Osvaldo Herrera"
                                 class="h-full w-full object-cover rounded-full"
                             />
@@ -60,14 +60,14 @@
                         class="mySwiper"
                     >
                         <swiper-slide
-                        ><video src="@/assets/video/coverr.mp4"
+                        ><video src="/video/coverr.mp4"
                             autoplay
                             loop
                             muted   
                             playsinline
                         ></video></swiper-slide
                         ><swiper-slide
-                        ><video src="@/assets/video/coverrCode2.mp4"
+                        ><video src="/video/coverrCode2.mp4"
                             autoplay
                             loop
                             muted   
@@ -81,7 +81,7 @@
                     <div class="h-fit w-fit">
                         <div class="h-[150px] w-[150px] md:h-[200px] md:w-[200px] bg-white rounded-full p-1">
                             <img 
-                                src="@/assets/img/nicola-narracci-avatar.jpeg" 
+                                src="/img/nicola-narracci-avatar.jpeg" 
                                 alt="Osvaldo Herrera"
                                 class="h-full w-full object-cover rounded-full"
                             />
@@ -113,7 +113,7 @@
                         class="mySwiper"
                     >
                         <swiper-slide
-                        ><video src="@/assets/video/Nicola_Narracci.mp4"
+                        ><video src="/video/Nicola_Narracci.mp4"
                             autoplay
                             loop
                             muted   
@@ -128,7 +128,7 @@
                     <div class="h-fit w-fit">
                         <div class="h-[150px] w-[150px] md:h-[200px] md:w-[200px] bg-white rounded-full p-1">
                             <img 
-                                src="@/assets/img/harold-vasquez-avatar.jpg" 
+                                src="/img/harold-vasquez-avatar.jpg" 
                                 alt="Osvaldo Herrera"
                                 class="h-full w-full object-cover rounded-full"
                             />
@@ -160,7 +160,7 @@
                     >
                         <swiper-slide
                         ><img 
-                        src="@/assets/img/haroldVasquez.jpg" 
+                        src="/img/haroldVasquez.jpg" 
                         alt="Contenido de Harold V."
                         class="w-full h-full object-cover"
                         ></swiper-slide
@@ -173,7 +173,7 @@
                     <div class="h-fit w-fit">
                         <div class="h-[150px] w-[150px] md:h-[200px] md:w-[200px] bg-white rounded-full p-1">
                             <img 
-                                src="@/assets/img/josh-sorenson-avatar.jpeg" 
+                                src="/img/josh-sorenson-avatar.jpeg" 
                                 alt="Osvaldo Herrera"
                                 class="h-full w-full object-cover rounded-full"
                             />
@@ -205,7 +205,7 @@
                     >
                         <swiper-slide
                         ><img 
-                        src="@/assets/img/JoshSorenson.jpg" 
+                        src="/img/JoshSorenson.jpg" 
                         alt="Contenido de Harold V."
                         class="w-full h-full object-cover"
                         ></swiper-slide

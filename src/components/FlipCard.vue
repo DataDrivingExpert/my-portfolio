@@ -9,7 +9,7 @@
         <swiper-slide class="flex justify-center items-center w-full h-full">
             <div class="bg-gradient-to-tl from-[#3F3F40] from-45% to-[#F2F2F2] to-95% h-full rounded-md p-2">
                 <img 
-                    src="@/assets/img/street_nout_gons.jpg" 
+                    src="/img/street_nout_gons.jpg" 
                     alt="Atardecer en la carretera"
                     class="w-full h-full object-cover rounded-lg"
                 />    

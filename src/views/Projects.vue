@@ -1,7 +1,7 @@
 <template>
     <div class="relative w-full h-80">
         <video
-            src="@/assets/video/coverrCode2.mp4"
+            src="/video/coverrCode2.mp4"
             autoplay
             loop
             muted
@@ -45,7 +45,14 @@
                     :end="p.end"
                     :desc="p.desc"
                     :refEmail="p.refEmail"
-                />
+                >
+                    <img 
+                    :src="loadImage(p.imgSrc)"
+                    alt="Imagen del proyecto" 
+                    class="w-full h-full object-cover rounded-xl"
+                    />
+                </ProjectCard>
+
             </div>
         </div>
     </div>
@@ -62,9 +69,13 @@
     const selected = ref('ALL')
     const checkedNames = ref([])
 
-    const tech = ['Django', 'ReactJS', 'VueJS', 'Scikit-Learn', 'Pandas']
-    const langs = ['Python', 'JavaScript', 'SQL', 'C#']
-    
+    // const tech = ['Django', 'ReactJS', 'VueJS', 'Scikit-Learn', 'Pandas']
+    // const langs = ['Python', 'JavaScript', 'SQL', 'C#']
+
+    const loadImage = (imgSrc) => {
+        return `/img/${imgSrc}`
+    }
+
     const proj = computed(() => {
         if(selected.value !== "ALL"){
             return projects.filter(item =>

@@ -2,12 +2,13 @@
     {
         "title":"Perfilamiento Inteligente",
         "company":"CamiónGo",
-        "position":"Analista de datos",
+        "position":"Líder de análisis de datos",
         "start":"09/2024",
         "end":"12/2024",
-        "desc":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias cumque minima odio eveniet iste nulla quia molestiae, architecto expedita fuga praesentium porro rerum, aperiam modi id commodi nisi! Assumenda, magni.",
+        "desc":"Llevé adelante el proyecto para la firma donde fue necesario diseñar, desarrollar, probar y documentar una solución de software. El proyecto consistió en estimaciones basadas en la similitud vectorial de los datos.",
         "refEmail":"rodrigo.valdes@camiongo.cl",
-        "keywords":["ML", "Scikit-Learn", "Scipy", "Pandas", "SQL", "Python"]
+        "keywords":["ML", "Scikit-Learn", "Scipy", "Pandas", "SQL", "Python"],
+        "imgSrc":"Camion_plus_UA.jpg"
     },
     {
         "title":"Desarrollo de aplicación web",
@@ -15,9 +16,10 @@
         "position":"Desarrollador .NET Razor Pages",
         "start":"12/2023",
         "end":"02/2024",
-        "desc":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias cumque minima odio eveniet iste nulla quia molestiae, architecto expedita fuga praesentium porro rerum, aperiam modi id commodi nisi! Assumenda, magni.",
+        "desc":"Participé en el proceso de desarrollo y documentación de una aplicación web para la firma. Un proyecto cuyo objetivo consistió en actualizar a tecnologías más recientes la plataforma interna de la empresa. Con las tecnologías .NET Razor Pages. En el lenguaje C#.",
         "refEmail":"nino.panchana@remaco.cl",
-        "keywords":["Dev", "Visual Studio Community", "Microsoft SQL Server", "C#"]
+        "keywords":["Dev", "Visual Studio Community", "Microsoft SQL Server", "C#"],
+        "imgSrc":"street_nout_gons.jpg"
     },
     {
         "title":"ChatBot para validación Docente",
@@ -25,9 +27,10 @@
         "position":"Desarrollador líder",
         "start":"09/2024",
         "end":"12/2024",
-        "desc":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias cumque minima odio eveniet iste nulla quia molestiae, architecto expedita fuga praesentium porro rerum, aperiam modi id commodi nisi! Assumenda, magni.",
+        "desc":"Lideré al equipo de desarrollo en la creación de una solución de inteligencia artificial. La iniciativa perteneció a un estudiante tesista de la universidad. Y nuestro equipo lo sacó adelante. Combinando tecnologías como Ollama con la arquitectura RAG, para obtener un ChatBot especializado en la confección de exámenes basados en pedagogía y las prácticas de docencia.",
         "refEmail":"oscar.loyola@cloud.uautonoma.cl",
-        "keywords":["AI", "Dev", "Llama", "streamlit", "LangChain", "Python"]
+        "keywords":["AI", "Dev", "Llama", "streamlit", "LangChain", "Python"],
+        "imgSrc":"Camion_plus_UA.jpg"
     },
     {
         "title":"Gestión de colegios",
@@ -35,8 +38,9 @@
         "position":"Miembro del equipo FullStack",
         "start":"09/2024",
         "end":"12/2024",
-        "desc":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias cumque minima odio eveniet iste nulla quia molestiae, architecto expedita fuga praesentium porro rerum, aperiam modi id commodi nisi! Assumenda, magni.",
+        "desc":"Contribuí activamente en tareas de desarrollo tanto de FrontEnd, como BackEnd. Combinando tecnologías como ReactJS, Django Rest Framework y PostgreSQL. Adicionalmente, asesoré al equipo en el control de versiones mediante el uso de Git CLI y GitHub.",
         "refEmail":"rene.galarce@cloud.uautonoma.cl",
-        "keywords":["Dev", "ReactJS", "Django Framework", "Django REST Framework","PostgreSQL"]
+        "keywords":["Dev", "ReactJS", "Django Framework", "Django REST Framework","PostgreSQL"],
+        "imgSrc":"Camion_plus_UA.jpg"
     }
 ]

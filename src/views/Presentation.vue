@@ -1,7 +1,7 @@
 <template>
     <div class="relative w-full h-80">
         <video
-            src="@/assets/video/coverr.mp4"
+            src="/video/coverr.mp4"
             autoplay
             loop
             muted
@@ -15,7 +15,7 @@
         <div class="relative basis-3/4 bg-gradient-to-tl from-[#202022] from-45% to-[#37373B] to-80% rounded-xl px-10 py-10 text-justify leading-9">
             <div class="h-[200px] w-[200px] bg-white rounded-full p-1 absolute -top-[100px] md:-top-20 right-2">
                 <img 
-                src="@/assets/img/myself.JPG" 
+                src="/img/myself.JPG" 
                 alt="Osvaldo Herrera"
                 class="h-full w-full object-cover rounded-full"
                 />

@@ -8,7 +8,7 @@
                 un lugar donde se pueda validar mi experiencia.
             </p>
             <p>
-                Gracias a los autores por facilitar su material de forma libre. Y a usted por visitar mi sitio web.
+                Gracias a los autores del contenido multimedia por facilitar su material de forma libre. Y a usted por visitar mi sitio web.
             </p>
         </div>
     </div>

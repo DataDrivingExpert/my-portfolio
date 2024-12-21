@@ -1,13 +1,13 @@
 <template>
     <div class="relative w-full h-80">
         <img 
-        src="@/assets/img/haroldVasquez.jpg" 
+        src="/img/haroldVasquez.jpg" 
         alt="Atardecer en la carretera"
         class="w-full h-full object-cover opacity-60"
         />
-        <div class="absolute flex flex-col max-w-screen-lg left-5 bottom-5 bg-black/45 rounded-xl px-10 py-5">
+        <div class="absolute flex flex-col w-full md:w-fit items-center left-0 bottom-5 bg-black/45 rounded-xl px-10 py-5 md:ml-5">
             <h5 class="text-5xl font-semibold mb-5 text-center">Sobre mí</h5>
-            <p>Más que sólo una profesión. Un estilo de vida</p>
+            <p>Más que sólo una carrera. Un estilo de vida</p>
         </div>
     </div>
     <div class="m-2 px-5 py-2 text-center">
@@ -27,7 +27,7 @@
                     a seguir perfeccionando mis habilidades, adquiriendo nuevos conocimientos constantemente.
                 </p>
             </div>
-            <div class="flex flex-col basis-1/5 md:basis-1/3">
+            <div class="hidden sm:flex sm:flex-col sm:basis-1/5 md:basis-1/3">
                 <div>
                     <Pie :data="data" :options="config"/>
                 </div>
@@ -46,7 +46,7 @@
             </div>
         </div>
         <h5 class="text-3xl font-semibold mt-10 text-center">Objetivos profesionales</h5>
-        <div class="basis-full flex flex-col md:flex-row md:flex-wrap gap-y-5 justify-center items-center">
+        <div class="basis-full flex flex-col md:flex-row md:flex-wrap gap-y-5 justify-center items-center mb-12">
             <FlipCard />
             <FlipCard />
             <FlipCard />
