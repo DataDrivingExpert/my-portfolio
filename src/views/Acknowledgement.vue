@@ -51,7 +51,7 @@
                     <div class="h-fit w-fit">
                         <div class="h-[150px] w-[150px] md:h-[200px] md:w-[200px] bg-white rounded-full p-1">
                             <img 
-                                src="/img/nicola-narracci-avatar.jpeg" 
+                                src="/img/coverr_avatar.png" 
                                 alt="Osvaldo Herrera"
                                 class="h-full w-full object-cover rounded-full"
                             />
@@ -74,7 +74,7 @@
                     <div class="h-fit w-fit">
                         <div class="h-[150px] w-[150px] md:h-[200px] md:w-[200px] bg-white rounded-full p-1">
                             <img 
-                                src="/img/harold-vasquez-avatar.jpg" 
+                                src="/img/coverr_avatar.png" 
                                 alt="Osvaldo Herrera"
                                 class="h-full w-full object-cover rounded-full"
                             />
@@ -96,7 +96,7 @@
                     <div class="h-fit w-fit">
                         <div class="h-[150px] w-[150px] md:h-[200px] md:w-[200px] bg-white rounded-full p-1">
                             <img 
-                                src="/img/josh-sorenson-avatar.jpeg" 
+                                src="/img/coverr_avatar.png" 
                                 alt="Osvaldo Herrera"
                                 class="h-full w-full object-cover rounded-full"
                             />
@@ -128,18 +128,5 @@
 </template>
 
 <script setup>
-  // Import Swiper Vue.js components
-  import { Swiper, SwiperSlide } from 'swiper/vue';
-
-  // Import Swiper styles
-  import 'swiper/css';
-
-  import 'swiper/css/effect-cube';
-  import 'swiper/css/pagination';
-
-  // import required modules
-  import { EffectCube, Pagination } from 'swiper/modules';
-
-  const modules = [EffectCube, Pagination]
 
 </script>
