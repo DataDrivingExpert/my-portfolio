@@ -12,6 +12,7 @@ import * as directives from 'vuetify/directives'
 
 import ToastPlugin from 'vue-toast-notification';
 import 'vue-toast-notification/dist/theme-default.css';
+import 'animate.css';
 
 const vuetify = createVuetify({
   components,

@@ -1,38 +1,46 @@
 [
     {
+        "id":1,
         "grade":"Ingeniero Civil en Informática",
         "inst": "Universidad Autónoma de Chile",
         "start":"03/2020",
         "end":"08/2025",
         "desc":"Como ingeniero civil en informática soy un profesional capacitado para la formulación, control y dirección de proyectos relacionados con las tecnologías de la información. Con una formación holística en temas como redes, programación, bases de datos e inteligencia artificial.",
         "type":"GradoAcademico",
-        "imgSrc":"light-bulbs.jpg"
+        "mediaSrc":"logo_UA.svg",
+        "mediaType":"svg"
     },
     {
+        "id":2,
         "grade":"Linear Algebra For Machine Learning and Data Science",
         "inst": "DeepLearning.AI",
         "start":"09/2024",
         "end":"12/2024",
         "desc":"Certificación en álgebra lineal aplicada al campo de Machine Learning. Este curso permite a los profesionales conocer las bases matemáticas dentrás de los modelos de inteligencia artificial. Correspondiendo a uno de tres cursos del plan de especialización en aprendizaje automático.",
         "type":"Certificacion",
-        "imgSrc":"light-bulbs.jpg"
+        "mediaSrc":"certificado_linear_algebra.jpg",
+        "mediaType":"img"
     },
     {
+        "id":3,
         "grade":"SCRUM Foundation Professional Certificate (SFPC)",
         "inst": "Certiprof",
         "start":"11/2023",
         "end":"12/2023",
         "desc":"Certificación de conocimientos sobre el marco de trabajo ágil SCRUM. La cual consiste en un examen de conocimientos sobre el marco ágil para trabajo en equipo.",
         "type":"Certificacion",
-        "imgSrc":"light-bulbs.jpg"
+        "mediaSrc":"certificado_scrum.jpg",
+        "mediaType":"img"
     },
     {
+        "id":4,
         "grade":"Data Engineering Foundations",
         "inst": "LinkedIn Learning",
         "start":"12/2024",
         "end":"12/2024",
         "desc":"Curso introductorio a los conceptos más fundamentales del área de ingeniería de datos, como la creación de sistemas que ejecuten y automaticen el proceso de ETL.",
         "type":"Certificacion",
-        "imgSrc":"light-bulbs.jpg"
+        "mediaSrc":"certificado_data_engineer_foundations.jpg",
+        "mediaType":"img"
     }
 ]

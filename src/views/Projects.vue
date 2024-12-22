@@ -8,7 +8,7 @@
             playsinline
             class="w-full h-full object-cover"
             ></video>
-        <div class="absolute flex flex-col basis-4/4 md:basis-2/4 left-5 bottom-5 bg-black/45 rounded-xl px-10 py-5">
+        <div class="absolute flex flex-col w-full md:w-fit items-center left-0 bottom-5 bg-black/45 rounded-xl px-10 py-5 md:ml-5">
             <h5 class="text-5xl font-semibold mb-5">Proyectos</h5>
             <p>Conjunto de proyectos académicos y profesionales desarrollados. <br/> Conozca un poco más de mi trabajo</p>
         </div>
@@ -37,7 +37,7 @@
             <div class="flex flex-col gap-y-2 m-2">
                 <ProjectCard
                     v-for="p in proj"
-                    :key="p.title"
+                    :key="p.id"
                     :title="p.title"
                     :company="p.company"
                     :position="p.position"
@@ -47,9 +47,21 @@
                     :refEmail="p.refEmail"
                 >
                     <img 
-                    :src="loadImage(p.imgSrc)"
+                    v-if="p.mediaType == 'img' && p.mediaSrc != null"
+                    :src="loadImage(p.mediaSrc)"
                     alt="Imagen del proyecto" 
                     class="w-full h-full object-cover rounded-xl"
+                    />
+                    <video
+                    v-else-if="p.mediaType == 'video' && p.mediaSrc != null"
+                    controls 
+                    :src="loadVideo(p.mediaSrc)"
+                    />
+                    <img 
+                    v-else 
+                    src="/svg/PhotoIcon.svg" 
+                    alt="Imagen del proyecto"
+                    class="w-[300px] h-[300px] object-cover rounded-xl mx-auto"
                     />
                 </ProjectCard>
 
@@ -63,7 +75,7 @@
 
 <script setup>
     import ProjectCard from '@/components/ProjectCard.vue'
-    import { ref, computed, reactive } from 'vue';
+    import { ref, computed } from 'vue';
     import projects from '@/projects.json'
 
     const selected = ref('ALL')
@@ -74,6 +86,10 @@
 
     const loadImage = (imgSrc) => {
         return `/img/${imgSrc}`
+    }
+
+    const loadVideo = (videoSrc) => {
+        return `/video/${videoSrc}`
     }
 
     const proj = computed(() => {

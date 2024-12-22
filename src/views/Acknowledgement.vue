@@ -45,36 +45,6 @@
 
                     </div>
                 </div>
-                <div class="h-[225px] w-[225px]">
-                    <swiper
-                        :effect="'cube'"
-                        :grabCursor="true"
-                        :cubeEffect="{
-                        shadow: true,
-                        slideShadows: true,
-                        shadowOffset: 20,
-                        shadowScale: 0.94,
-                        }"
-                        :pagination="true"
-                        :modules="modules"
-                        class="mySwiper"
-                    >
-                        <swiper-slide
-                        ><video src="/video/coverr.mp4"
-                            autoplay
-                            loop
-                            muted   
-                            playsinline
-                        ></video></swiper-slide
-                        ><swiper-slide
-                        ><video src="/video/coverrCode2.mp4"
-                            autoplay
-                            loop
-                            muted   
-                            playsinline
-                        ></video></swiper-slide>
-                    </swiper>
-                </div>
             </div>
             <div class="flex flex-col w-full items-center justify-evenly md:flex-row p-5 bg-gradient-to-tl from-[#202022] from-45% to-[#37373B] to-80% rounded-lg">
                 <div class="flex flex-col items-center md:flex-row basis-2/3 ">
@@ -98,30 +68,6 @@
 
                     </div>
                 </div>
-                <div class="h-[225px] w-[225px]">
-                    <swiper
-                        :effect="'cube'"
-                        :grabCursor="true"
-                        :cubeEffect="{
-                        shadow: true,
-                        slideShadows: true,
-                        shadowOffset: 20,
-                        shadowScale: 0.94,
-                        }"
-                        :pagination="true"
-                        :modules="modules"
-                        class="mySwiper"
-                    >
-                        <swiper-slide
-                        ><video src="/video/Nicola_Narracci.mp4"
-                            autoplay
-                            loop
-                            muted   
-                            playsinline
-                        ></video></swiper-slide
-                        >
-                    </swiper>
-                </div>
             </div>
             <div class="flex flex-col w-full items-center justify-evenly md:flex-row p-5 bg-gradient-to-tl from-[#202022] from-45% to-[#37373B] to-80% rounded-lg">
                 <div class="flex flex-col items-center md:flex-row basis-2/3 ">
@@ -144,29 +90,6 @@
                         >visitar</a>
                     </div>
                 </div>
-                <div class="h-[225px] w-[225px]">
-                    <swiper
-                        :effect="'cube'"
-                        :grabCursor="true"
-                        :cubeEffect="{
-                        shadow: true,
-                        slideShadows: true,
-                        shadowOffset: 20,
-                        shadowScale: 0.94,
-                        }"
-                        :pagination="true"
-                        :modules="modules"
-                        class="mySwiper"
-                    >
-                        <swiper-slide
-                        ><img 
-                        src="/img/haroldVasquez.jpg" 
-                        alt="Contenido de Harold V."
-                        class="w-full h-full object-cover"
-                        ></swiper-slide
-                        >
-                    </swiper>
-                </div>
             </div>
             <div class="flex flex-col w-full items-center justify-evenly md:flex-row p-5 bg-gradient-to-tl from-[#202022] from-45% to-[#37373B] to-80% rounded-lg">
                 <div class="flex flex-col items-center md:flex-row basis-2/3 ">
@@ -188,29 +111,6 @@
                             href="https://www.pexels.com/es-es/@joshsorenson/"
                         >visitar</a>
                     </div>
-                </div>
-                <div class="h-[225px] w-[225px]">
-                    <swiper
-                        :effect="'cube'"
-                        :grabCursor="true"
-                        :cubeEffect="{
-                        shadow: true,
-                        slideShadows: true,
-                        shadowOffset: 20,
-                        shadowScale: 0.94,
-                        }"
-                        :pagination="true"
-                        :modules="modules"
-                        class="mySwiper"
-                    >
-                        <swiper-slide
-                        ><img 
-                        src="/img/JoshSorenson.jpg" 
-                        alt="Contenido de Harold V."
-                        class="w-full h-full object-cover"
-                        ></swiper-slide
-                        >
-                    </swiper>
                 </div>
             </div>
             <div class="flex flex-col w-full items-start border-2 gap-2 mb-10">
