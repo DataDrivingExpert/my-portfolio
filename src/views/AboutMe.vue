@@ -105,7 +105,6 @@
 <script setup>
     import { Pie } from 'vue-chartjs';
     import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js'
-    import FlipCard from '@/components/FlipCard.vue';
     // chartJS
     ChartJS.register(ArcElement, Tooltip, Legend)
 

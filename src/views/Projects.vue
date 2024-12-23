@@ -59,7 +59,7 @@
                     />
                     <img 
                     v-else 
-                    src="/svg/PhotoIcon.svg" 
+                    :src="defaultIcon"
                     alt="Imagen del proyecto"
                     class="w-[300px] h-[300px] object-cover rounded-xl mx-auto"
                     />
@@ -80,17 +80,20 @@
 
     const selected = ref('ALL')
     const checkedNames = ref([])
+    const baseUrl = import.meta.env.BASE_URL
 
     // const tech = ['Django', 'ReactJS', 'VueJS', 'Scikit-Learn', 'Pandas']
     // const langs = ['Python', 'JavaScript', 'SQL', 'C#']
 
     const loadImage = (imgSrc) => {
-        return `/img/${imgSrc}`
+        return `${baseUrl}img/${imgSrc}`
     }
 
     const loadVideo = (videoSrc) => {
-        return `/video/${videoSrc}`
+        return `${baseUrl}video/${videoSrc}`
     }
+
+    const defaultIcon = `${baseUrl}svg/PhotoIcon.svg`
 
     const proj = computed(() => {
         if(selected.value !== "ALL"){

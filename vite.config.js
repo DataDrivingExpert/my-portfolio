@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/my-portfolio/',
+  base: process.env.NODE_ENV === 'production' ? '/my-portfolio/' : '/',
   plugins: [
     vue(),
     vueDevTools(),

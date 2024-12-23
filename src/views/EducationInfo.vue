@@ -91,6 +91,8 @@
     import EducationCard from '@/components/EducationCard.vue'
     import education from '../education.json'
 
+    const baseUrl = import.meta.env.BASE_URL
+
     const grades = education.filter(element => {
         return element.type.toLowerCase() == 'gradoacademico'
     })
@@ -100,14 +102,14 @@
     })
 
     const loadImage = (mediaSrc) => {
-        return `/img/${mediaSrc}`
+        return `${baseUrl}img/${mediaSrc}`
     }
 
     const loadVideo = (videoSrc) => {
-        return `/video/${videoSrc}`
+        return `${baseUrl}video/${videoSrc}`
     }
     
     const loadVector = (vectorSrc) => {
-        return `/svg/${vectorSrc}`
+        return `${baseUrl}svg/${vectorSrc}`
     }
 </script>
