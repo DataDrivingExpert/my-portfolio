@@ -76,7 +76,7 @@
 <script setup>
     import ProjectCard from '@/components/ProjectCard.vue'
     import { ref, computed } from 'vue';
-    import projects from '@/projects.json'
+    import projects from '../projects.json'
 
     const selected = ref('ALL')
     const checkedNames = ref([])
